@@ -10,8 +10,8 @@ class Favcomponent extends Component {
   <Card.Body>
     <Card.Title>{this.props.title}</Card.Title>
    
-    <Button onClick={()=>this.props.deleteChoco(this.props._id,this.props.email)} type="click" variant="primary">Add To Favorite</Button>
-    <Button onClick={()=>this.props.showFormMethod(this.props.email,this.props._id)} type="click" variant="primary">Add To Favorite</Button>
+    <Button onClick={()=>this.props.deleteChoco(this.props._id,this.props.email)} type="click" variant="primary">Delete</Button>
+    <Button onClick={()=>this.props.showFormMethod(this.props.email,this.props._id)} type="click" variant="primary">Update</Button>
 
   </Card.Body>
 </Card> 
